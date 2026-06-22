@@ -1,0 +1,6 @@
+base_model = "moonshotai/kimi-k2.5"
+
+[cost]
+input = 0.537
+output = 2.715
+cache_write = 0.2685

@@ -1,0 +1,10 @@
+base_model = "moonshotai/kimi-k2.7-code"
+
+[cost]
+input = 0.95
+output = 4.0
+cache_write = 0.19
+
+[limit]
+context = 256_000
+output = 32_768

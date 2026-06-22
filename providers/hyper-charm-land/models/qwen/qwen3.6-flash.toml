@@ -1,0 +1,7 @@
+base_model = "alibaba/qwen3.6-flash"
+
+[cost]
+input = 1.0
+output = 4.0
+cache_read = 0.1
+cache_write = 1.25

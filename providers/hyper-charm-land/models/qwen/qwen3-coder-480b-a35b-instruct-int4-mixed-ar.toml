@@ -1,0 +1,22 @@
+name = "Qwen3 Coder 480B A35B Instruct INT4 Mixed AR"
+family = "qwen"
+release_date = "2025-04"
+last_updated = "2026-04"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = true
+
+[cost]
+input = 0.445
+output = 2.145
+cache_write = 0.2225
+
+[limit]
+context = 106_000
+output = 10_600
+
+[modalities]
+input = ["text"]
+output = ["text"]

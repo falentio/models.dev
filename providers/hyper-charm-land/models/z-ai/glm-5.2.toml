@@ -1,0 +1,9 @@
+base_model = "zhipuai/glm-5.2"
+
+[cost]
+input = 1.5
+output = 4.5
+cache_write = 0.3
+
+[limit]
+output = 128_000

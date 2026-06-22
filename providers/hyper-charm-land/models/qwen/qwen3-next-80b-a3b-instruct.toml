@@ -1,0 +1,10 @@
+base_model = "alibaba/qwen3-next-80b-a3b-instruct"
+
+[cost]
+input = 0.1295
+output = 1.216
+cache_write = 0.0648
+
+[limit]
+context = 262_144
+output = 26_214

@@ -1,0 +1,22 @@
+name = "Llama 4 Maverick 17B 128E Instruct FP8"
+family = "llama"
+release_date = "2025-04-05"
+last_updated = "2025-04-05"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = true
+
+[cost]
+input = 0.28
+output = 0.9
+cache_write = 0.14
+
+[limit]
+context = 430_000
+output = 43_000
+
+[modalities]
+input = ["text"]
+output = ["text"]
